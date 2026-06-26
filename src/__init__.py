@@ -1,5 +1,5 @@
-pandas>=2.1      # DataFrame export (optional)
-matplotlib>=3.8  # time-series plots
-pytest>=8.0      # for testing
-numpy>=1.26
+from .agents import Agent, Otter, Urchin 
+from .grid import Grid, GridCell, Kelp, SubstrateType
+from .params import Params
+
 
