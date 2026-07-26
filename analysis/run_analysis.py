@@ -14,7 +14,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt   # noqa: E402
 import matplotlib.ticker as mtick   # noqa: E402
 
-from harness import (Params, run_once, run_ensemble, summarize,   # noqa: E402
+from analysis.harness import (Params, run_once, run_ensemble, summarize,   # noqa: E402
                      collapse_rate, extinction_rate, enable_fast_mode,
                      disable_fast_mode, _REAL_MORANS)
 from src import Simulation                                          # noqa: E402
